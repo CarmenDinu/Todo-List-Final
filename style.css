@@ -1,0 +1,93 @@
+table,
+th,
+td,
+thead {
+	border: 2px solid black !important;
+	background-color: rgb(104, 182, 178);
+}
+thead:hover {
+	color: aliceblue;
+}
+body,
+html {
+	background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg);
+}
+.border-div {
+	border: 10px solid rgb(104, 182, 178);
+	border-radius: 50px;
+	background-color: rgb(104, 182, 178);
+	opacity: 90%;
+}
+.add-btn {
+	background-color: rgb(104, 182, 178);
+	padding: 0;
+	border: none;
+	font-size: 40px;
+
+	color: white;
+}
+
+.delete-btn {
+	background-color: rgb(104, 182, 178);
+	padding: 0;
+	border: none;
+	font-size: 40px;
+
+	color: white;
+}
+.center-btns {
+	text-align: center;
+	display: inline-block;
+}
+div.absolute {
+	position: absolute;
+
+	bottom: 10px;
+}
+table,
+th,
+td,
+thead {
+	border: 2px solid black !important;
+	background-color: rgb(104, 182, 178);
+}
+
+
+tr:hover {
+	color: aliceblue;
+}
+body,
+html {
+	background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg);
+}
+.border-div {
+	border: 10px solid rgb(104, 182, 178);
+	border-radius: 50px;
+	background-color: rgb(104, 182, 178);
+	opacity: 90%;
+}
+.add-btn {
+	background-color: rgb(104, 182, 178);
+	padding: 0;
+	border: none;
+	font-size: 40px;
+
+	color: white;
+}
+
+.delete-btn {
+	background-color: rgb(104, 182, 178);
+	padding: 0;
+	border: none;
+	font-size: 40px;
+
+	color: white;
+}
+.center-btns {
+	text-align: center;
+}
+div.absolute {
+	position: absolute;
+
+	bottom: 10px;
+}

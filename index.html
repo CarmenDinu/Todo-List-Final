@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+	</head>
+
+	<body>
+		<div
+			style="background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg)"
+			class="page-holder bg-cover"
+		></div>
+		<div class="container ">
+			testuri
+			<div class="justify-content-center aling-items-center ">
+				<div class="col-12 border-div mt-4 ">
+					<div class="row">
+					<h4 class="p-1"> Create todo List</h4>
+					
+
+					<i class="p-2"> &#8505; Make sure all the fiels are filled and click on "Add"</i>
+			
+				</div>
+					<input
+						type="text"
+						id="textInput"
+						name="input"
+						aria-label="text"
+						placeholder="Enter the name of the task"
+						class="form-control-sm"
+					/>
+					<input class="form-control-sm" type="date" id="dateInput" name="date" aria-label="date" />
+
+					<input
+						class="form-control-sm"
+						type="number"
+						id="numbersInput"
+						name="numbers"
+						aria-label="numbers"
+						placeholder="Enter the ID of the task"
+					/>
+					<div class="center-btns">
+						<button
+							class="btn btn-secondary m-3"
+							type="submit"
+							id="myAddBtn"
+							value="Add"
+							aria-label="button"
+							onclick="addTasksFunction()"
+						>
+							Add
+						</button>
+					</div>
+					<div class="row">
+					<h4 class="p-1">Filter tasks</h4>
+					
+
+					<i class="p-2"> &#8505; Enter the name of the task to filter</i><br />
+				
+				</div>
+				
+				<div class="row">
+					<input
+						type="text"
+						id="taskSearch"
+						name="taskSearch"
+						aria-label="text"
+						class="form-control-sm col-6 "
+						placeholder='Type any letter or word to filter and Press "ENTER"'
+					/>
+					
+					<button class="btn btn-secondary btn-sm ml-5"onclick="location.reload();">Refresh all tasks</button>
+				</div>
+				
+					<br /> 
+					<div class="table-responsive">
+					<table id="table" class="table">
+						<thead>
+							<tr>
+								<th scope="col">Task <strong>Name </strong></th>
+								<th scope="col" >Task <strong>Date </strong></th>
+								<th scope="col">Task <strong>ID </strong></th>
+								
+							</tr>
+						</thead>
+						<tbody><tr><td><input type="button" class="btn btn-secondary btn-sm" value="Delete" onclick="deleteRow(this) ">Choose a destination.</td><td>2021-02-04</td><td>1</td></tr>
+							<tr>
+							<td><input type="button" class="btn btn-secondary btn-sm" value="Delete" onclick="deleteRow(this) ">Book flights.</td><td>2021-02-04</td><td>2</td></tr>
+							<tr>
+							<td><input type="button" class="btn btn-secondary btn-sm" value="Delete" onclick="deleteRow(this) ">Pack</td><td>2021-02-04</td><td>3</td></tr></tbody>
+					</table>
+				</div>
+					<br>
+					<div class="absolute">
+						
+						<span class="ml-5">Total number of tasks:</span>
+						<span id="total"></span>
+					</div>
+				</div>
+
+			
+			</div>
+		</div>
+		<script src="script.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
